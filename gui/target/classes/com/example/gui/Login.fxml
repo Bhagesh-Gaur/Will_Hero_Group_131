@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="login_anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: Transparent;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gui.UserLogin_controller">
+   <children>
+      <AnchorPane fx:id="s0_anchor" prefHeight="700.0" prefWidth="1000.0">
+         <children>
+            <ImageView fitHeight="700.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image_src/back_1.png" />
+               </image>
+            </ImageView>
+            <Pane prefHeight="700.0" prefWidth="1000.0">
+               <children>
+                  <Group layoutY="-23.904109954833984">
+                     <children>
+                        <ImageView fx:id="c1" fitHeight="150.0" fitWidth="200.0" layoutX="420.0" layoutY="523.904109954834" opacity="0.69" pickOnBounds="true" preserveRatio="true" scaleX="1.3">
+                           <image>
+                              <Image url="@Image_src/NonCollide/nc_cloud1.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="c2" fitHeight="150.0" fitWidth="200.0" layoutX="630.0" layoutY="201.64384078979492" opacity="0.66" pickOnBounds="true" preserveRatio="true" scaleX="1.5" scaleY="1.5">
+                           <image>
+                              <Image url="@Image_src/NonCollide/nc_cloud1.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="c3" fitHeight="150.0" fitWidth="200.0" layoutX="680.0" pickOnBounds="true" preserveRatio="true" scaleX="1.2" scaleY="1.2">
+                           <image>
+                              <Image url="@Image_src/NonCollide/nc_cloud1.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="c4" fitHeight="150.0" fitWidth="200.0" layoutX="250.0" layoutY="323.904109954834" opacity="0.75" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Image_src/NonCollide/nc_cloud1.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="c5" fitHeight="150.0" fitWidth="200.0" layoutY="45.904109954833984" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Image_src/NonCollide/nc_cloud1.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="32.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true" scaleX="1.5">
+                     <image>
+                        <Image url="@Image_src/Collide/c_island8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="grp_is3" fitHeight="150.0" fitWidth="300.0" layoutX="590.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Image_src/Collide/c_island7.png" />
+                     </image>
+                  </ImageView>
+                  <Group fx:id="grp_is2" layoutX="190.0" layoutY="-75.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Image_src/Collide/c_island4.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="21.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Image_src/NonCollide/nc_treeg2.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
+                  <Group fx:id="grp_is1" layoutX="279.0" layoutY="254.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Image_src/Collide/c_island5.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="105.0" fitWidth="200.0" layoutX="81.01351928710938" layoutY="60.5" pickOnBounds="true" preserveRatio="true" scaleX="0.7" scaleY="0.7">
+                           <image>
+                              <Image url="@Image_src/NonCollide/nc_pillar.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Image_src/NonCollide/nc_treeg1.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Group>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="700.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true" scaleX="2.0" scaleY="2.0" scaleZ="1.5">
+                     <image>
+                        <Image url="@Image_src/Collide/c_island6.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="903.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true" scaleX="1.3" scaleY="1.3">
+                     <image>
+                        <Image url="@Image_src/NonCollide/nc_treebuild.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="hero" fitHeight="150.0" fitWidth="200.0" layoutX="140.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true" scaleX="0.4" scaleY="0.4">
+                     <image>
+                        <Image url="@Image_src/Collide/c_hero.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="king_org" fitHeight="150.0" fitWidth="200.0" layoutX="672.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true" scaleX="0.7" scaleY="0.7">
+                     <image>
+                        <Image url="@Image_src/Collide/c_redorg.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="princess" fitHeight="150.0" fitWidth="200.0" layoutX="775.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+                     <image>
+                        <Image url="@Image_src/Collide/nc_princess.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Image_src/NonCollide/nc_treeg2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="hero1" fitHeight="150.0" fitWidth="200.0" layoutX="21.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true" scaleX="0.3" scaleY="0.3">
+                     <image>
+                        <Image url="@Image_src/Collide/c_specialorg2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="hero2" fitHeight="150.0" fitWidth="200.0" layoutX="-30.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true" scaleX="0.4" scaleY="0.4">
+                     <image>
+                        <Image url="@Image_src/Collide/c_specialorg1.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <ImageView fx:id="title" fitHeight="275.0" fitWidth="550.0" layoutX="286.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Image_src/Title.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Pane layoutY="200.0" prefHeight="100.0" prefWidth="1000.0">
+         <children>
+            <Text fill="WHITE" layoutX="403.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="login_details" text="Existing players login.">
+               <font>
+                  <Font name="Silom" size="17.0" />
+               </font></Text>
+            <Text fill="WHITE" layoutX="156.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="login_details" text="New to Will Hero? Create account to get started!" textAlignment="CENTER" wrappingWidth="688.5872535705566">
+               <font>
+                  <Font name="Silom" size="17.0" />
+               </font></Text>
+         </children>
+      </Pane>
+      <TextField layoutX="416.0" layoutY="316.0" prefHeight="27.0" prefWidth="170.0" promptText="Username">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Silom" size="13.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="416.0" layoutY="363.0" prefHeight="27.0" prefWidth="170.0" promptText="Password">
+         <font>
+            <Font name="Silom" size="13.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <Button fx:id="login_but1" alignment="CENTER" layoutX="473.0" layoutY="407.0" mnemonicParsing="false" onAction="#login" text="LOGIN">
+         <font>
+            <Font name="Silom" size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="createaccount_but" layoutX="439.0" layoutY="444.0" mnemonicParsing="false" onAction="#createaccount" prefHeight="24.0" prefWidth="128.0" text="CREATE ACCOUNT">
+         <font>
+            <Font name="Silom" size="13.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="closelogin_but" fitHeight="76.0" fitWidth="75.0" layoutX="25.0" layoutY="604.0" onMouseClicked="#close_login" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image_src/close_butt.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
