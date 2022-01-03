@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="700.0" maxWidth="1000.0" minHeight="700.0" minWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.will_hero.General_Controller">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image_src/back_1.png" />
+         </image>
+      </ImageView>
+      <BorderPane maxHeight="700.0" maxWidth="1000.0" minHeight="700.0" minWidth="1000.0">
+         <top>
+            <Pane prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="271.0" layoutY="49.0" text="Leaderboard" textAlignment="CENTER">
+                     <font>
+                        <Font name="Silom" size="68.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </top>
+         <center>
+            <GridPane maxHeight="499.0" maxWidth="700.0" minHeight="388.0" minWidth="400.0" prefHeight="430.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ScrollPane fx:id="scroll_LeaderBoard" prefHeight="502.0" prefWidth="602.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="598.0" />
+                    </content>
+                  </ScrollPane>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints />
+               </rowConstraints></GridPane>
+         </center>
+         <left>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="98.0" fitWidth="102.0" layoutX="10.0" layoutY="494.0" onMouseClicked="#loadHomepage" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Image_src/close_butt.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ImageView>
+               </children>
+            </Pane>
+         </left>
+         <right>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </right>
+      </BorderPane>
+   </children>
+</Pane>

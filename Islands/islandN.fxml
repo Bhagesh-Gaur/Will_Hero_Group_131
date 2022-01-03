@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="islandPane" maxHeight="150.0" maxWidth="200.0" minHeight="150.0" minWidth="200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.will_hero.Islands.Controller.Island_controller">
+   <children>
+      <ImageView fx:id="island" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image_src/Collide/c_island7.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

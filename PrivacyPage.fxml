@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="root_pane" maxHeight="700.0" maxWidth="1000.0" minHeight="700.0" minWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.will_hero.General_Controller">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image_src/back_1.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="242.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PRIVACY POLICY" textAlignment="CENTER" wrappingWidth="528.416748046875">
+         <font>
+            <Font name="Silom" size="67.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="close_but" fitHeight="98.0" fitWidth="102.0" layoutX="10.0" layoutY="596.0" onMouseClicked="#loadPauseset" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Image_src/close_butt.png" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Text fill="#2f971f" layoutX="262.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We keep your data safe!">
+         <font>
+            <Font name="Silom" size="37.0" />
+         </font>
+      </Text>
+      <Text fill="#2f971f" layoutX="93.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To know more contact Bhagesh &amp; Rishabh" textAlignment="CENTER">
+         <font>
+            <Font name="Silom" size="37.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
