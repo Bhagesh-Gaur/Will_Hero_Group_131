@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="hero_pane" maxHeight="75.0" maxWidth="57.0" minHeight="75.0" minWidth="57.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.will_hero.Elements.Controller.Hero_controller">
+   <children>
+      <ImageView fx:id="hero" fitHeight="75.0" fitWidth="57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image_src/Collide/c_hero.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

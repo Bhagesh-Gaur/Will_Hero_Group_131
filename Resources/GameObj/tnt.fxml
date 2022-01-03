@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane fx:id="tnt" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.will_hero.Obstacles.Controller.TNT_controller">
+   <children>
+      <ImageView fx:id="img" fitHeight="75.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image_src/Collide/c_tnt.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="collisionRect" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="75.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="75.0" />
+   </children>
+</Pane>
